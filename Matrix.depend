@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1519572668 source:/home/gustavo/Programacao/Cpp/Matrix/Matrix.cpp
+	"Matrix.hpp"
+
+1519572685 /home/gustavo/Programacao/Cpp/Matrix/Matrix.hpp
+
+1519491679 source:/home/gustavo/Programacao/Cpp/Matrix/src/Teste.cpp
+	"Teste.h"
+
+1519491679 /home/gustavo/Programacao/Cpp/Matrix/include/Teste.h
+
+1519572931 source:/home/gustavo/Programacao/Cpp/Matrix/main.cpp
+	<iostream>
+	"Matrix.hpp"
+
