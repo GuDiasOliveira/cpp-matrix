@@ -35,11 +35,9 @@
 			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Matrix.cpp" />
-		<Unit filename="Matrix.hpp" />
-		<Unit filename="include/Teste.h" />
-		<Unit filename="main.cpp" />
-		<Unit filename="src/Teste.cpp" />
+		<Unit filename="include/Matrix.hpp" />
+		<Unit filename="src/Matrix.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
