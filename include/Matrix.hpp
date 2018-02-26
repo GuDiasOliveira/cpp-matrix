@@ -12,6 +12,7 @@ class Matrix
         Matrix();
         Matrix(int rows, int cols, double** matrix);
         Matrix(int rows, int cols);
+        Matrix(const Matrix &obj); // copy constructor
         double* operator[](int row) const;
         double** getMatrix() const;
         virtual ~Matrix();

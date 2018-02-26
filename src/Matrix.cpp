@@ -19,6 +19,14 @@ Matrix::Matrix(int rows, int cols) : Matrix(rows, cols, nullptr)
 }
 
 
+Matrix::Matrix(const Matrix &obj) : m_rows(obj.m_rows), m_cols(obj.m_cols), m_mat(new double[obj.m_rows * obj.m_cols])
+{
+    int size = m_rows * m_cols;
+    for (int i = 0; i < size; i++)
+        m_mat[i] = obj.m_mat[i];
+}
+
+
 double* Matrix::operator[](int row) const
 {
     return m_mat + (row * m_cols);
