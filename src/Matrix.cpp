@@ -49,5 +49,5 @@ double** Matrix::getMatrix() const
 
 Matrix::~Matrix()
 {
-    delete m_mat;
+    delete[] m_mat;
 }
